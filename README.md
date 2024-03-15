@@ -32,6 +32,35 @@ The magazine editors have some requested modifications for the database before y
 
 1. An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked you to include it in your analysis. Add the following information to the database:
 
+{
+    "BusinessName":"Penang Flavours",
+    "BusinessType":"Restaurant/Cafe/Canteen",
+    "BusinessTypeID":"",
+    "AddressLine1":"Penang Flavours",
+    "AddressLine2":"146A Plumstead Rd",
+    "AddressLine3":"London",
+    "AddressLine4":"",
+    "PostCode":"SE18 7DY",
+    "Phone":"",
+    "LocalAuthorityCode":"511",
+    "LocalAuthorityName":"Greenwich",
+    "LocalAuthorityWebSite":"http://www.royalgreenwich.gov.uk",
+    "LocalAuthorityEmailAddress":"health@royalgreenwich.gov.uk",
+    "scores":{
+        "Hygiene":"",
+        "Structural":"",
+        "ConfidenceInManagement":""
+    },
+    "SchemeType":"FHRS",
+    "geocode":{
+        "longitude":"0.08384000",
+        "latitude":"51.49014200"
+    },
+    "RightToReply":"",
+    "Distance":4623.9723280747176,
+    "NewRatingPending":True
+}
+
 2. Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the BusinessTypeID and BusinessType fields.
 
 3. Update the new restaurant with the BusinessTypeID you found.
@@ -82,3 +111,5 @@ Unless otherwise stated, for each question:
 **Hint: You will need to use the aggregation method to answer this.
 
 The first 5 rows of your resulting DataFrame should look something like this:
+
+![image](https://github.com/pbansal181/nosql-challenge/assets/148804724/dcd236b1-91b9-4762-9d64-7d9f78882a21)
